@@ -1,0 +1,36 @@
+{
+    "describe": {
+        "prefix": "jdescribe",
+        "body": [
+            "describe(\"$1\", function(){",
+            "\t$2",
+            "});"
+        ],
+        "description": "describe"
+    },
+    "beforeEach": {
+        "prefix": "jbeforeEach",
+        "body": [
+            "beforeEach(function($1){",
+            "\t$2",
+            "});"
+        ],
+        "description": "beforeEach"
+    },
+    "it": {
+        "prefix": "jit",
+        "body": [
+            "it(\"$1\", function(){",
+            "\t$2",
+            "});"
+        ],
+        "description": "it"
+    },
+    "expect": {
+        "prefix": "jexpect",
+        "body": [
+            "expect($1).$2;"
+        ],
+        "description": "expect"
+    }
+}

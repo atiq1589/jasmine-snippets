@@ -1,0 +1,37 @@
+{
+  "name": "jasmine-snippets",
+  "description": "This is a simple jasmine unit test snippets",
+  "version": "0.0.5",
+  "publisher": "atiq1589",
+  "engines": {
+    "vscode": "^0.10.1"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/jasmine.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atiq1589/jasmine-snippets.git"
+  },
+  "keywords": [
+    "jasmine",
+    "unit",
+    "test",
+    "vscode",
+    "snippets"
+  ],
+  "author": "MD. ATIQUL ISLAM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atiq1589/jasmine-snippets/issues"
+  },
+  "homepage": "https://github.com/atiq1589/jasmine-snippets#readme"
+}
